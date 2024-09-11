@@ -15,7 +15,7 @@ A classe `Robo` serve como base para todos os robôs e contém os seguintes elem
   - `vida: float`: Nível de vida do robô, gerado aleatoriamente entre 0 e 1.
 
 - **Atributos de Classe**:
-  - `nivel_critico: float`: Um valor crítico que define se o robô precisa de cuidados médicos. O valor padrão é 0.60, mas pode ser alterado pelo programador.
+  - `nivel_critico: float`: Um valor crítico que define se o robô precisa de cuidados médicos. O valor padrão é 0.50, mas pode ser alterado pelo programador.
 
 - **Métodos**:
   - `__init__(self, nome: str)`: Inicializa o robô com o nome passado como parâmetro e gera um valor de vida aleatório.
